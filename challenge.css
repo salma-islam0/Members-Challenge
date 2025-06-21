@@ -1,3 +1,16 @@
+.body {
+    background-color: #eee;
+}
+
+h2 {
+    position: absolute;
+    background-color: #5ebdc1b8;
+    color: black;
+    width: 100%;
+    padding: 20px;
+    margin: -28px;
+}
+
 .page {
     display: grid;
     width: 97%;
@@ -12,15 +25,18 @@
 .one {
     background-color:white ;
     grid-area: one;
+    margin-top: 70px;
 }
 .two {
     grid-area: two;
     background-color:white ;
+    margin-top: 70px;
 }
 .three {
     grid-area: three;
     background-color:black ;
     color: white;
+    margin-top: 70px;
 
 }
 .four {
@@ -55,7 +71,7 @@
 }
 
 .page div {
-    border-bottom: 3px solid orangered;
+    border-bottom: 3px solid #5ebdc1b8;
     padding: 15px;
     overflow: hidden;
     
